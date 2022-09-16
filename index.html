@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo da Forca</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img src="logo-alura.png" alt="">
+    </header>
+    <main>
+        <div id="menu-inicial" >
+            <input type="button" value="Começar e Jogar" class="btn-escuro" id="btn-iniciarJogo" onclick="iniciarJogo()">
+            <input type="button" value="Adicionar nova palavra" class="btn-claro" id="btn-adicionarPalavra" onclick="adicionarPalavra()">
+        </div>
+        <div id="menu-cfg" style="display: none;">
+            <textarea name="" id="" class="campo-de-texto" placeholder="Digite uma palavra ou frase para adicionar ao jogo..."></textarea>
+            <p class="aviso">[!] Máx. 8 letras</p>
+            <div>
+                <input type="button" value="Salvar e Começar" class="btn-escuro">
+                <input type="button" value="Cancelar" class="btn-claro">
+            </div>
+        </div>
+        <div id="jogo" style="display: none;">
+            <canvas id="forca"></canvas>
+            <div>
+                <input type="button" value="Novo jogo" class="btn-escuro">
+                <input type="button" value="Desistir" class="btn-claro">
+            </div>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
