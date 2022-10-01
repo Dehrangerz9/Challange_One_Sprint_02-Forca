@@ -72,6 +72,7 @@ header > h1{
     padding: 10px;
     width: 250px;
     height: 50px;
+
 }
 
 #jogo{
@@ -92,7 +93,7 @@ header > h1{
     */
 
     width: 1200px;
-    height: 800px;
+    height: 860px;
     background-color: gray;
 }
 
